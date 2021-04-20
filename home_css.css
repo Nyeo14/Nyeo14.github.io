@@ -68,14 +68,14 @@ body {
     padding-top: 60px;
 }
 
-/* Responsive columns - one column layout (vertical) on small screens */
+/* Responsive columns - one column layout (vertical) on small screens
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
         display: block;
         margin-bottom: 20px;
     }
-}
+}*/
 
 /*--------------------------------------------------------------------------*/
 
@@ -148,10 +148,6 @@ body {
     font-size: 25px;
     text-align: left;
 }
-/*.workexperience li{
-    text-align: left;
-    text-decoration: none;
-}*/
 
 /*--------------------------------------------------------------------------*/
 
