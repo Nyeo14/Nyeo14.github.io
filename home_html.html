@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nathan Yeo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="home_css.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <!-- <script type="text/javascript" src="home_js.js"></script>-->
+</head>
+
+<body>
+    <!-- Header container-->
+    <div class="header" style="display: flex;">
+        <div style="width: 30%;">
+            <img src="C:\Users\natha\OneDrive\Desktop\profpic.jpg" alt="Photo of me" class="photo">
+        </div>
+        <div style="flex-grow: 1">
+            <h1 style="text-align: left">Nathan Brandon Yeo</h1>
+            <h3 style="text-align: left; padding-left: 20px">University of California, Irvine</h3>
+            <p style="text-align: left; padding-left: 20px; font-size: 20px">I am a 3rd year student at UCI, expected graduation Spring 2022. I'm majoring in Computer Science and specializing in Intelligent Systems.
+                                        I'm primarily interested in machine learning and software development, but enjoy learning and have begun exploring web development as well.
+                                        I'm proficient in Python, C++, and C, and have experience with SQL and Java. The majority of my coding experience has been through coursework
+                                        and personal projects, so I'm actively looking for new work opportunities to improve and grow. Feel free to contact me with any inquiries!</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar-->
+    <div id="navbar">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#workexperience">Work Experience</a></li>
+            <!--<li><a href="#hobbies">Hobbies</a></li>-->
+            <li style="float: right"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Projects container-->
+    <div id="projects" class="projects">
+        <h1>Projects</h1>
+        <hr width="100" text-align="center" color="black">
+        <br>
+        <h3 style="text-align: left">Here is a list of my more recent and notable projects. They can all be found on my Github (link in the "Contacts" section).</h3>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="ProjectLogos/twitchlogo.png" alt="Twitch" style="width:100%">
+                    <div class="container">
+                        <h4><b>Twitch Chat Interpreter</b></h4>
+                        <p>This is a 10 week group project I did for my Project in AI course at UCI. My group and I created a program that
+                            utilizes chat messages from a Twitch.tv stream to determine the most exciting moments of the stream. It essentially
+                            creates a highlight reel of the given stream.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <img src="ProjectLogos/fridaylogo.jpeg" alt="Friday" style="width:100%">
+                        <h4><b>FRIDAY</b></h4>
+                        <p>Named after one of Tony Stark's natural language user interfaces, FRIDAY is a chatbot I am currently working on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <img src="ProjectLogos/tictactoelogo.png" alt="tictactoe" style="width:100%">
+                        <h4><b>TicTacToe AI</b></h4>
+                        <p>This is a TicTacToe AI I created that implements the minimax algorithm. It will only ever win or tie.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <img src="ProjectLogos/nbalogo.png" alt="NBA" style="width:100%">
+                        <h4><b>NBA Calculator</b></h4>
+                        <p>This is a head-to-head calculator my friends and I created. Users can create two teams of any number of players between
+                            one and five and see which team would be predicted to win.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Experience container-->
+    <div id="workexperience" class="workexperience">
+        <h1>Work Experience</h1>
+        <hr width="200" text-align="center" color="black">
+        <br>
+        <div class="workexp-grid">
+            <div class="grid-img"><img src="WorkLogos/barracudalogotransp.png" alt="barracuda" style="width:100%"></div>
+            <div class="grid-desc">Assisted the company's IT Help Desk team and mostly gained experience in a professional working environment. I shadowed full-time employees, learning about and working with server rooms, computer hardware, 
+                and the different jobs of the IT team. Overall was a very knowledgeable experience that helped me understand the role an IT team plays in a company.</div>
+            <div class="grid-img"><img src="WorkLogos/bayclublogo.png" alt="bayclub" style="width:65%"></div>
+            <div class="grid-desc">Assisted the club’s summer tennis program by coaching students. Depending on the week, I would be assigned to work with older kids such as high schoolers or younger kids. I worked with other coaches and 
+                organizers to create a curriculum and environment that facilitated growth from the students in tennis and social skills. Improved upon my communication and teaching skills through working with the 
+                students and collaborating with adults and other coaches.</div>
+        </div>
+    </div>
+
+    <!-- Hobbies container
+    <div id="hobbies" class="hobbies">
+        <h1>Hobbies</h1>
+    </div>-->
+
+    <!-- Contact container-->
+    <div id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <hr width="150" text-align="center" color="black">
+        <br>
+        <br style="clear: both">
+        <a class="contact-item" href="mailto:nbr.yeo@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email &emsp;</a>
+        <a class="contact-item" href="https://github.com/Nyeo14"><i class="fa fa-github"></i> Github &emsp;</a>
+        <a class="contact-item" href="https://www.linkedin.com/in/nathan-yeo-a81082191/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn &emsp;</a>
+    </div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>
+</body>
+</html>
