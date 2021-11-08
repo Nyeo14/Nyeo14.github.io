@@ -1,0 +1,46 @@
+
+body, body * {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+p{
+ font-size : 1.2vw;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: lightgray;
+}
+
+.card-title {
+    text-align: center;
+}
+
+#accimg {
+    padding-top: 70px;
+}
+
+#projects {
+    padding-top: 50px;
+}
+
+#work {
+    padding-top: 50px;
+}
+
+#contact {
+    padding-top: 50px;
+}
+
+#contactblock {
+    padding-bottom: 50px;
+}
+
+#contactblock a {
+    color: black;
+    font-size: 36px;
+    text-decoration: none;
+}
+
