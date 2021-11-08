@@ -1,6 +1,11 @@
 
-body {
+body, body * {
     font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+p{
+ font-size : 1.2vw;
 }
 
 .header {
@@ -9,4 +14,29 @@ body {
     background: lightgray;
 }
 
-.img-center {margin:0 auto;}
+.card-title {
+    text-align: center;
+}
+
+#projects {
+    padding-top: 50px;
+}
+
+#work {
+    padding-top: 50px;
+}
+
+#contact {
+    padding-top: 50px;
+}
+
+#contactblock {
+    padding-bottom: 50px;
+}
+
+#contactblock a {
+    color: black;
+    font-size: 36px;
+    text-decoration: none;
+}
+
