@@ -1,0 +1,12 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: lightgray;
+}
+
+.img-center {margin:0 auto;}
