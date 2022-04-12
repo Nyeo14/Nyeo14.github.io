@@ -1,0 +1,174 @@
+body {
+    /*font-family: Arial, Verdana, sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: lightgray;
+    /*color: black;*/
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* photo stuff */
+.photo {
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* navbar stuff */
+#navbar {
+    background: black;
+    overflow: hidden;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background: black;
+    overflow: hidden;
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: lightgray;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}*/
+
+/*--------------------------------------------------------------------------*/
+
+/* projects stuff */
+.projects {
+    padding: 100px;
+    text-align: center;
+    background: white;
+}
+
+{
+    box-sizing: border-box;
+}
+
+.projects .row .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.projects .row {
+    margin: 0 -5px;
+}
+
+.projects .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.projects .row .column .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 550px;  /*REMOVE ONCE YOU FIGURE OUT HOW TO AUTOMATE HEIGHT*/
+}
+
+.projects .row .column .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* work experience stuff */
+.workexperience {
+    padding: 100px;
+    text-align: center;
+    background: lightgray;
+}
+
+.workexperience .workexp-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.grid-img {
+    background-color: lightgray;
+    /*border: 1px solid black;*/
+    padding: 30px;
+    text-align: center;
+  }
+
+.grid-desc {
+    background-color: lightgray;
+    /*border: 1px solid black;*/
+    padding-top: 70px;
+    font-size: 25px;
+    text-align: left;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* hobbies stuff */
+.hobbies {
+    padding: 50px;
+    text-align: center;
+    background: white;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* contact stuff */
+.contact {
+    padding: 100px;
+    text-align: center;
+    background: white;
+}
+
+.contact a {
+    color: black;
+    font-size: 36px;
+    text-decoration: none;
+}
